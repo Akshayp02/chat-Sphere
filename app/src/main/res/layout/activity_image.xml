@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Image">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="25dp"
+        android:src="@drawable/baseline_person_add_alt_1_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_pick"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@color/btnColor"
+            android:text="pick"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_save"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@color/btnColor"
+            android:text="save"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_delete"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@color/btnColor"
+            android:text="Delete"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pv_ivupload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:visibility="invisible" />
+
+</LinearLayout>

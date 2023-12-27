@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+<androidx.appcompat.widget.AppCompatImageView
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:src="@drawable/chaticon"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:id="@+id/chaticon"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Wellcome to the Chat Sphere"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Made with ❤️"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Askahy Peherkar"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
